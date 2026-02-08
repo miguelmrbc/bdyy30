@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Batalha da YinYang</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Cabeçalho com logo e símbolo -->
+  <header class="topo">
+    <div class="logo">
+      <h1>Batalha da <span>YinYang</span></h1>
+      <div class="yin-yang"></div>
+    </div>
+  </header>
+
+  <!-- Botões de navegação -->
+  <nav class="menu">
+    <button onclick="irPara('index4.html')">Ranking 1ª Temporada</button>
+    <button onclick="irPara('index3.html')">Calendário Mensal</button>
+    <button onclick="irPara('index2.html')">Informações Ranking</button>
+  </nav>
+
+  <script>
+    // Função simples para redirecionar
+    function irPara(pagina) {
+      window.location.href = pagina;
+    }
+  </script>
+</body>
+</html>

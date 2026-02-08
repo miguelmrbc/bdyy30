@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+
+  /* Fundo fluido em preto e branco */
+  background: linear-gradient(135deg, #000 0%, #111 25%, #fff 75%, #eee 100%);
+}
+
+
+/* Balão elegante */
+.como-funciona {
+  background: rgba(255,255,255,0.9);
+  border-radius: 20px;
+  box-shadow: 0 0 25px rgba(0,0,0,0.7);
+  padding: 25px 35px;
+  width: 350px;
+  text-align: left;
+}
+
+.como-funciona h2 {
+  margin-top: 0;
+  text-align: center;
+  font-size: 1.4em;
+  color: #000;
+  border-bottom: 2px solid #000;
+  padding-bottom: 8px;
+}
+
+.como-funciona ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.como-funciona li {
+  margin: 8px 0;
+  font-size: 1.05em;
+  color: #222;
+  font-weight: bold;
+}
